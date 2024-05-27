@@ -53,30 +53,31 @@ Matrix Evaluation menggunakan F1 - Score
 ## Data Info
 Jumlah baris dan kolom di dataframe df adalah (3941, 11)
 Data columns (total 11 columns):
- #   Column                    Non-Null Count  Dtype  
----  ------                    --------------  -----  
- 0   Tenure                    3747 non-null   float64
- 1   WarehouseToHome           3772 non-null   float64
- 2   NumberOfDeviceRegistered  3941 non-null   int64  
- 3   PreferedOrderCat          3941 non-null   object 
- 4   SatisfactionScore         3941 non-null   int64  
- 5   MaritalStatus             3941 non-null   object 
- 6   NumberOfAddress           3941 non-null   int64  
- 7   Complain                  3941 non-null   int64  
- 8   DaySinceLastOrder         3728 non-null   float64
- 9   CashbackAmount            3941 non-null   float64
- 10  Churn                     3941 non-null   int64  
+|    | Column                   | Non-Null Count|  Dtype  |
+|--- | ------------------------ | --------------|  -----  |
+| 0  | Tenure                   | 3747 non-null |  float64|
+| 1  | WarehouseToHome          | 3772 non-null |  float64|
+| 2  | NumberOfDeviceRegistered | 3941 non-null |  int64  |
+| 3  | PreferedOrderCat         | 3941 non-null |  object |
+| 4  | SatisfactionScore        | 3941 non-null |  int64  |
+| 5  | MaritalStatus            | 3941 non-null |  object |
+| 6  | NumberOfAddress          | 3941 non-null |  int64  |
+| 7  | Complain                 | 3941 non-null |  int64  |
+| 8  | DaySinceLastOrder        | 3728 non-null |  float64|
+| 9  | CashbackAmount           | 3941 non-null |  float64|
+| 10 | Churn                    | 3941 non-null |  int64  |
 
 ## Unique Values & Missing Values
-	dataFeatures	dataType	null	null%	unique	uniqueSample
-0	Tenure	float64	194	4.92	36	[17.0, 10.0]
-1	WarehouseToHome	float64	169	4.29	33	[25.0, 6.0]
-2	NumberOfDeviceRegistered	int64	0	0.00	6	[6, 4]
-3	PreferedOrderCat	object	0	0.00	6	[Others, Laptop & Accessory]
-4	SatisfactionScore	int64	0	0.00	5	[3, 5]
-5	MaritalStatus	object	0	0.00	3	[Single, Divorced]
-6	NumberOfAddress	int64	0	0.00	14	[1, 7]
-7	Complain	int64	0	0.00	2	[1, 0]
-8	DaySinceLastOrder	float64	213	5.40	22	[15.0, 10.0]
-9	CashbackAmount	float64	0	0.00	2335	[151.3, 126.22]
-10	Churn	int64	0	0.00	2	[1, 0]
+| 	|dataFeatures	          |dataType	    |null   |null% 	|unique|unique sample|
+|---|-------------------------|-------------|-------|-------|------|-------------|
+| 0	|Tenure                   |float64	    |194	|4.92	|36	   |[17.0, 10.0] |
+| 1	|WarehouseToHome	      |float64	    |169	|4.29	|33	   |[25.0, 6.0]  |
+| 2	|NumberOfDeviceRegistered |int64	    |0	    |0.00	|6	   |[6, 4]       |
+| 3	|PreferedOrderCat	      |object	    |0	    |0.00	|6	   |[Others, Laptop&Accessory]|
+| 4	|SatisfactionScore	      |int64	    |0	    |0.00	|5	   |[3, 5]       |
+| 5	|MaritalStatus	          |object	    |0	    |0.00	|3	   |[Single, Divorced]|
+| 6	|NumberOfAddress	      |int64	    |0	    |0.00	|14	   |[1, 7]|
+| 7	|Complain	              |int64	    |0	    |0.00	|2	   |[1, 0]|
+| 8	|DaySinceLastOrder	      |float64	    |213	|5.40	|22	   |[15.0, 10.0]|
+| 9	|CashbackAmount	          |float64	    |0	    |0.00	|2335	[151.3, 126.22]|
+| 10|Churn	                  |int64	    |0	    |0.00	|2	   |[1, 0]|
