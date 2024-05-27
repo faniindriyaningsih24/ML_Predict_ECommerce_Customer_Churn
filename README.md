@@ -89,15 +89,15 @@ Total number of duplicate rows: 671 atau 17.026135498604415
 Feature ***PreferedOrderCat***	terdapat inconsisten data yaitu pada value Mobile dan Mobile Phone. Terdapat value yang memiliki arti sama namun beda penulisan, values yang digunakan tidak konsisten.
 
 ## Outliers
-data Tenure memiliki outliers 4
-data WarehouseToHome memiliki outliers 1
-data NumberOfDeviceRegistered memiliki outliers 271
-data SatisfactionScore memiliki outliers 0
-data NumberOfAddress memiliki outliers 3
-data Complain memiliki outliers 0
-data DaySinceLastOrder memiliki outliers 43
-data CashbackAmount memiliki outliers 316
-data Churn memiliki outliers 674
+    - data Tenure memiliki outliers 4
+    - data WarehouseToHome memiliki outliers 1
+    - data NumberOfDeviceRegistered memiliki outliers 271
+    - data SatisfactionScore memiliki outliers 0
+    - data NumberOfAddress memiliki outliers 3
+    - data Complain memiliki outliers 0
+    - data DaySinceLastOrder memiliki outliers 43
+    - data CashbackAmount memiliki outliers 316
+    - data Churn memiliki outliers 674
 ---
 # Data Cleaning
 ## Handling Missing Values
@@ -111,7 +111,7 @@ Handling duplicate data pada case ini yaitu menghapus data duplicate, karena aga
 Pada feature **PreferedOrderCat** terdapat nilai **Mobile Phone** dan **Mobile**. Terdapat ketidak konsistenan data. Maka nilai **Mobile** akan di ubah menjadi **Mobile Phone**.
 
 ## Handling Outliers
-Outliers tidak akan dihapus karena outliers masih masuk akal dan masih relevan dengan data lainnya.
+    Outliers tidak akan dihapus karena outliers masih masuk akal dan masih relevan dengan data lainnya.
 ---
 # Data Preprocessing & Feature Engineering
 ## Column Transformer
